@@ -1,7 +1,9 @@
-import TaskApp from "./taskApp/TaskApp";
+import Context from "./passingDataWithContext/Context";
 
 export default function App() {
-    return <h1>
-        <TaskApp />
+  return (
+    <h1>
+      <Context />
     </h1>
+  );
 }
